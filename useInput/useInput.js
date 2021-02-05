@@ -1,4 +1,3 @@
-
 const useInput = (initialValue, validator) => {
     const [value, setValue] = useState(initialValue);
     const onChange = (e) => {
