@@ -13,3 +13,10 @@ function App() {
     </div>
   );
 }
+
+return (
+    <div className="App">
+        <div>Hi</div>
+        <button onClick={() => setNumber(number+1)}></button>
+    </div>
+)
